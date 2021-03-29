@@ -4,7 +4,7 @@ Arduino project that alerts the user to close the window in certain weather cond
 The Problem
 
 •	We all like the fresh air outside, that is why we leave the window open, but sometimes we forget it open, and it starts to rain outside.
-•	Especially when we have a window like the one on the left, we have a problem. Without a doubt, the rain enters the house and can damage the parquet or wet certain objects in the house
+•	Especially when we have a window like the one on the left, we have a problem. Without a doubt, the rain enters the house and can damage the parquet or wet certain objects in the house.
 •	Another problem that arises when we forget about an open window is when outside starts to get too hot or too cold, thus affecting the temperature in our homes.
 
 The Solution
@@ -15,18 +15,19 @@ The Solution
 
 Temperature Sensor
 
-•	The device uses a DHT11 temperature and humidity sensor
-•	It is used to check if the temperature is lower than 18˚C or greater than 30˚
-•	The DHT.h library is used to retrieve the temperature from the sensor
+•	The device uses a DHT11 temperature and humidity sensor.
+•	It is used to check if the temperature is lower than 18˚C or greater than 30˚.
+•	The DHT.h library is used to retrieve the temperature from the sensor.
 
 Tilt Sensor
 
-•	The device uses a SW520D tilt sensor
-•	It is used to check if the window is open or not
-•	The window is considered open when the sensor sends a HIGH value
+•	The device uses a SW520D tilt sensor.
+•	It is used to check if the window is open or not.
+•	The window is considered open when the sensor sends a HIGH value.
 
 Raindrop Sensor
-•	The device uses a FC-37 raindrop sensor
+
+•	The device uses a FC-37 raindrop sensor.
 •	It sends a value between 0 and 1023 through its analog pin. It will send lower values when it has water on it.
 •	The device considers it is raining if the value sent by the raindrop sensor is lower than 600.
 
