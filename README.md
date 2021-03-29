@@ -1,6 +1,9 @@
 # window-alert-system
 This Arduino project alerts the user to close the window in certain weather conditions.
+
 Demo video: https://1drv.ms/u/s!AlJEYb5G7LkfgchPa6fXcBKt0pHusg?e=0PbXY6
+
+![Schema](https://user-images.githubusercontent.com/47451756/112886204-46cc5a80-90da-11eb-9afa-a516fc88a7b9.PNG)
 
 The Problem
 
